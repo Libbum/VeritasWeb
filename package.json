@@ -1,0 +1,19 @@
+{
+  "name": "veritas_web",
+  "version": "1.0.0",
+  "description": "Web Portal for Veritas",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Libbum/veritasWeb.git"
+  },
+  "author": "Tim DuBois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/Libbum/veritasWeb/issues"
+  },
+  "homepage": "https://gitlab.com/Libbum/veritasWeb#README"
+}
