@@ -33,3 +33,6 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
+#Generated files
+dist/assets/css/ie*.css
+dist/assets/css/main.css
