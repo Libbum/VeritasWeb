@@ -22,10 +22,10 @@
 					<img src="images/veritas.svg" onerror="this.src='veritas.png'" class="logo">
 					<nav>
 						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
-							<li><a href="#three">Get in touch</a></li>
+							<li><a href="#intro">Get It</a></li>
+							<li><a href="#one">Information</a></li>
+							<li><a href="#two">Capability</a></li>
+							<li><a href="#three">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -42,6 +42,8 @@
 							and it's documentation or whatever.</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
+								<li><a href="#" class="button">Download Latest Release</a></li>
+								<li><a href="#" class="button">View on Github</a></li>
 							</ul>
 						</div>
 					</section>
@@ -49,42 +51,43 @@
 				<!-- One -->
 					<section id="one" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<h2>What is Veritas?</h2>
+
+							<p>An efficient tool for continuum Vlasov-Maxwell simulations. Implemented in modern c++14, using state of the art numerical schemes for maximal accuracy and an adaptive mesh to minimise memory and runtime requirements.</p>
 							<div class="features">
 								<section>
+									<span class="icon major fa-bolt"></span>
+									<h3>The Vlasov-Maxwell System</h3>
+									<p>Widely used to describe laser-plasma interactions etc.</p>
+								</section>
+								<section>
+									<span class="icon major fa-rocket"></span>
+									<h3>Ion Acceleration</h3>
+									<p>An important research area with applications in: hadron therapy for cancers, cosmic radiation studies on living cells and spacecraft, short-life medical isotope production, proton imaging etc.</p>
+								</section>
+								<section>
 									<span class="icon major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Numerical Schemes</h3>
+									<p>Using forth order accurate finite-volume, WENO interpolations for fluxes over cell boundaries, Runnge-Kutta ARK4(3)6L[2]SA for time stepping etc..</p>
 								</section>
 								<section>
-									<span class="icon major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon major fa-object-ungroup"></span>
+									<h3>Adaptive Mesh</h3>
+									<p>Dramatically reduces computation time whilst remaining accurate where it counts.</p>
 								</section>
 								<section>
-									<span class="icon major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon major fa-balance-scale"></span>
+									<h3>Benchmarked</h3>
+									<p>Against leading PIC codes such as EPOCH.</p>
 								</section>
 								<section>
-									<span class="icon major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-chain"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-diamond"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon major fa-cubes"></span>
+									<h3>Extensible and Modular</h3>
+									<p>Easily implement your own experiments, code is stable and usable but also under active development. New modules, higher dimensions, further parallelisation are on the roadmap.</p>
 								</section>
 							</div>
 							<ul class="actions">
-								<li><a href="#" class="button">Learn more</a></li>
+								<li><a href="#" class="button">User Guide</a></li><li><a href="#" class="button">Complete Documentation</a></li>
 							</ul>
 						</div>
 					</section>
@@ -92,13 +95,14 @@
 				<!-- Two -->
 					<section id="two" class="wrapper style3-alt spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<div class="image"><img src="images/iondist.png" alt="" data-position="center center" /></div>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Shock Wave Acceleration</h2>
+									<p>A layered-target with a combination of light and heavy ions, on the front and rear side respectively, yields a strong quasi-static sheath-field on the rear side of the heavy-ion part of the target.
+										This sheath-field increases the energy of the shock-accelerated ions while preserving their mono-energeticity.</p>
 									<ul class="actions">
-										<li><a href="#" class="button">Learn more</a></li>
+										<li><a href="http://arxiv.org/abs/1512.06644" class="button">View on arXiv</a></li>
 									</ul>
 								</div>
 							</div>
@@ -107,8 +111,8 @@
 							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Pre-Plasma</h2>
+									<p>Generation of super-high energetic electrons influenced by pre-plasma via a laser-matter interaction at relativistic intensity.</p>
 									<ul class="actions">
 										<li><a href="#" class="button">Learn more</a></li>
 									</ul>
@@ -119,8 +123,8 @@
 							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Relativistically Induced Transparency</h2>
+									<p>Above a certain threshold, perturbations can force electrons to escape into the vacuum.</p>
 									<ul class="actions">
 										<li><a href="#" class="button">Learn more</a></li>
 									</ul>
@@ -133,7 +137,7 @@
 					<section id="three" class="wrapper style2 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<p>If you would like to know more about the project, are interested in collaborating, would like your work featured on this website, or have any other general enquiry; feel free to contact us via one of the methods below.</p>
 							<div class="split style1">
 								<section>
 									<form method="post" action="#">
@@ -180,7 +184,7 @@
 			<footer id="footer" class="wrapper style2-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Tim DuBois and Benjamin Svedung Wettervik 2016. All rights reserved.</li><li>Plasma Theory Research Group, Chalmers University of Technology.</li>
+						<li>&copy; Tim DuBois and Benjamin Svedung Wettervik 2016.</li><li>Plasma Theory Research Group, Chalmers University of Technology.</li>
 					</ul>
 				</div>
 			</footer>
