@@ -26,10 +26,10 @@ $session_verify = $_SESSION['verify'];
 if (empty($session_verify)) $session_verify = $_COOKIE['verify'];
 
 if(!isEmail($email)) {
-    echo '<font color="#962d3e">Error: You have entered an invalid e-mail address.</font>';
+    echo '<font color="#343642">Error: You have entered an invalid e-mail address.</font>';
     exit();
 } else if($session_verify != $posted_verify) {
-    echo '<font color="#962d3e">Error: the verification code you entered is incorrect.</font>';
+    echo '<font color="#343642">Error: the verification code you entered is incorrect.</font>';
     exit();
 }
 
@@ -73,7 +73,7 @@ if($error == '') {
 
          // Email has sent successfully, echo a success page.
 
-         echo "<p>Thanks for your message <strong>$name</strong>.<br>I'll get back to you as soon as possible.</p>";
+         echo "<p>Thanks for your message <strong>$name</strong>.<br>We'll get back to you as soon as possible.</p>";
 
          } else {
 

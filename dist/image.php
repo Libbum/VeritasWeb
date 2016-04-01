@@ -21,7 +21,7 @@ $background = array_rand($bgs, 1);
 
 $img_handle = imagecreatefrompng($bgs[$background]);
 $text_colour = imagecolorallocate($img_handle, 130, 130, 130);
-$font_size = 5;
+$font_size = 25;
 
 $size_array = getimagesize($bgs[$background]);
 $img_w = $size_array[0];
