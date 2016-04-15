@@ -65,6 +65,11 @@
 				}
 			}
 
+			.logo {
+				position: relative;
+				top: 70px;
+			}
+
 			a {
 				@include vendor('transition', 'color #{_duration(transition)} ease');
 				border: 0;
@@ -130,6 +135,14 @@
 			}
 		}
 
+		@include breakpoint(xlarge) {
+			nav {
+				.logo {
+					top: 55px;
+				}
+			}
+		}
+
 		@include breakpoint(large) {
 			height: _size(sidebar-height);
 			left: 0;
@@ -164,6 +177,10 @@
 						margin: 0 0 0 2em;
 						padding: 0;
 					}
+				}
+
+				.logo {
+					display: none;
 				}
 
 				a {
