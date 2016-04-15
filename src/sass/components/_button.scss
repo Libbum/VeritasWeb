@@ -82,6 +82,10 @@
 			}
 		}
 
+		&.sender {
+			margin-top: 1em;
+		}
+
 		&.disabled,
 		&:disabled {
 			cursor: default;
