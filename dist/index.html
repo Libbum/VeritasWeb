@@ -42,8 +42,8 @@
 							and it's documentation or whatever.</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
-								<li><a href="#" class="button">Download Latest Release</a></li>
-								<li><a href="#" class="button">View on Github</a></li>
+								<li><a href="https://github.com/Libbum/Veritas/releases/tag/v1.0" class="button">Download Latest Release</a></li>
+								<li><a href="https://github.com/Libbum/Veritas/" class="button">View on Github</a></li>
 							</ul>
 						</div>
 					</section>
@@ -58,7 +58,7 @@
 								<section>
 									<span class="icon major fa-bolt"></span>
 									<h3>The Vlasov-Maxwell System</h3>
-									<p>Widely used to describe laser-plasma interactions etc.</p>
+									<p>Widely used to describe laser-plasma interactions, particluarly the dynamics of collisionless plasmas whose component species interact through self-consistent electromagnetic fields.</p>
 								</section>
 								<section>
 									<span class="icon major fa-rocket"></span>
@@ -68,17 +68,17 @@
 								<section>
 									<span class="icon major fa-code"></span>
 									<h3>Numerical Schemes</h3>
-									<p>Using forth order accurate finite-volume, WENO interpolations for fluxes over cell boundaries, Runnge-Kutta ARK4(3)6L[2]SA for time stepping etc..</p>
+									<p>Implemented using a Runge-Kutta (six stage, fourth order accurate) CFL satisfying adaptive time step advancement; forth order accurate finite-volume block structured adaptive mesh; upwind biased WENO-type reconstruction interploants with Flux Corrected Transport. </p>
 								</section>
 								<section>
 									<span class="icon major fa-object-ungroup"></span>
 									<h3>Adaptive Mesh</h3>
-									<p>Dramatically reduces computation time whilst remaining accurate where it counts.</p>
+									<p>Dramatically reduces computation time whilst remaining accurate where it counts. Demonstratably 5x faster than non-adaptive methods with little overhead.</p>
 								</section>
 								<section>
 									<span class="icon major fa-balance-scale"></span>
 									<h3>Benchmarked</h3>
-									<p>Against leading PIC codes such as EPOCH.</p>
+									<p>Results compared with solutions to known analytical test cases such as a circularly polarized laser pulse impinging on an overdense electron plasma. Numerical comparisons against leading PIC codes such as EPOCH and PICADOR.</p>
 								</section>
 								<section>
 									<span class="icon major fa-cubes"></span>
@@ -87,7 +87,7 @@
 								</section>
 							</div>
 							<ul class="actions">
-								<li><a href="#" class="button">User Guide</a></li><li><a href="#" class="button">Complete Documentation</a></li>
+								<li><a href="http://veritas.readthedocs.io/en/latest/" class="button">Quick Start Guide</a></li>
 							</ul>
 						</div>
 					</section>
@@ -102,31 +102,20 @@
 									<p>A layered-target with a combination of light and heavy ions, on the front and rear side respectively, yields a strong quasi-static sheath-field on the rear side of the heavy-ion part of the target.
 										This sheath-field increases the energy of the shock-accelerated ions while preserving their mono-energeticity.</p>
 									<ul class="actions">
+										<li><a href="http://dx.doi.org/10.1063/1.4948424" class="button">Read the Article</a></li>
 										<li><a href="http://arxiv.org/abs/1512.06644" class="button">View on arXiv</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Pre-Plasma</h2>
-									<p>Generation of super-high energetic electrons influenced by pre-plasma via a laser-matter interaction at relativistic intensity.</p>
-									<ul class="actions">
-										<li><a href="#" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="images/electrons_13.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Relativistically Induced Transparency</h2>
 									<p>Above a certain threshold, perturbations can force electrons to escape into the vacuum.</p>
 									<ul class="actions">
-										<li><a href="#" class="button">Learn more</a></li>
+										<li><a href="http://arxiv.org/abs/1606.08681" class="button">View on arXiv</a></li>
 									</ul>
 								</div>
 							</div>
@@ -137,7 +126,7 @@
 					<section id="three" class="wrapper style2 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>If you would like to know more about the project, are interested in collaborating, would like your work featured on this website, or have any other general enquiry; feel free to contact us via one of the methods below.</p>
+							<p>If you would like to know more about the project, are interested in collaborating, would like your work featured on this website, or have any other general enquiry: feel free to contact us via one of the methods below.</p>
 							<div class="split style1">
 								<section>
 									<form id="contactForm" method="post" action="process.php">
