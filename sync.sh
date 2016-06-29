@@ -1,4 +1,4 @@
 #!/bin/bash
-# Sync Data to Akasha
+# Sync Data to FT
 
-rsync -v -rz --checksum --delete -e ssh dist/ AkashaO:odyssey/veritas/
+rsync -v -rz --checksum --delete -e ssh dist/ FT:veritas/
